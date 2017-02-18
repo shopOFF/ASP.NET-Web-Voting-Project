@@ -22,8 +22,12 @@
                     <li><a href="Results.aspx">Results</a></li>
                     <li><a href="Contacts.aspx">Contacts</a></li>
 
-                    <object align="right"><li><a href="Register.aspx">Register</a></li></object>
-                    <object align="right"><li><a href="LogIn.aspx">Log In</a></li></object>
+                    <object align="right">
+                        <li><a href="Register.aspx">Register</a></li>
+                    </object>
+                    <object align="right">
+                        <li><a href="LogIn.aspx">Log In</a></li>
+                    </object>
                 </ul>
             </div>
             <div class="clear"></div>

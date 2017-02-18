@@ -4,45 +4,7 @@
     Register
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="Server">
-    <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-        }
-
-        .auto-style2 {
-            width: 372px;
-            text-align: right;
-        }
-
-        .auto-style6 {
-            width: 214px;
-        }
-
-        .auto-style11 {
-            text-align: left;
-        }
-
-        #Reset1 {
-            width: 95px;
-            height: 30px;
-        }
-
-        .auto-style24 {
-            width: 372px;
-            text-align: right;
-            height: 45px;
-        }
-
-        .auto-style25 {
-            width: 214px;
-            height: 45px;
-        }
-
-        .auto-style26 {
-            text-align: left;
-            height: 45px;
-        }
-    </style>
+    <link href="Styles/register.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="Server">
     <p>
@@ -52,7 +14,7 @@
         <h2 style="font-size: x-large; text-align: center;">&nbsp; Create a new Account</h2>
         <p style="font-size: x-large; text-align: center;">&nbsp;</p>
         <p>&nbsp;</p>
-        <hr style="height: -13px; width: 800px" />
+        <hr />
         <br />
         <br />
         <table class="auto-style1">
@@ -258,7 +220,7 @@
                 <td class="auto-style11">&nbsp;</td>
             </tr>
         </table>
-        <hr style="width: 800px; height: -13px;" />
+        <hr />
         <br />
         <br />
         <br />

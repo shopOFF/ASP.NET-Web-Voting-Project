@@ -4,6 +4,7 @@
     Results
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="Server">
+    <link href="Styles/general.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="Server">
     <p>
@@ -15,7 +16,7 @@
         <br />
         <br />
         <br />
-        <hr style="height: -13px; width: 800px" />
+        <hr />
         <br />
         <p>
             &nbsp;
@@ -73,7 +74,7 @@
         <br />
         <p>
         </p>
-        <hr style="height: -15px; width: 800px" />
+        <hr />
         <p>
         </p>
         <br />

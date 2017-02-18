@@ -4,59 +4,7 @@
     Vote
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="Server">
-    <style type="text/css">
-        .auto-style1 {
-            text-align: center;
-        }
-
-        .auto-style2 {
-            width: 100%;
-        }
-
-        .auto-style3 {
-            height: 40px;
-        }
-
-        .auto-style6 {
-            height: 46px;
-            width: 164px;
-        }
-
-        .auto-style8 {
-            width: 396px;
-        }
-
-        .auto-style9 {
-            width: 213px;
-            text-align: left;
-        }
-
-        .auto-style10 {
-            width: 396px;
-            height: 26px;
-        }
-
-        .auto-style11 {
-            width: 213px;
-            text-align: left;
-            height: 26px;
-        }
-
-        .auto-style12 {
-            height: 26px;
-        }
-
-        .auto-style13 {
-            height: 46px;
-            text-align: left;
-            width: 299px;
-        }
-
-        .auto-style14 {
-            height: 46px;
-            width: 144px;
-        }
-    </style>
+    <link href="Styles/vote.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="Server">
     <p>
@@ -83,7 +31,7 @@
                 <td class="auto-style3"></td>
             </tr>
         </table>
-        <hr style="height: -15px; width: 800px" />
+        <hr />
         <br />
         <asp:Label ID="Msgg" runat="server" Font-Size="Medium" ForeColor="#CC3300"></asp:Label>
         <br />
@@ -139,7 +87,7 @@
         <br />
         <br />
         <br />
-        <hr style="height: -15px; width: 800px" />
+        <hr />
         <br />
         <p>
         </p>

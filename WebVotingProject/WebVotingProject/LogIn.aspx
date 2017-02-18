@@ -4,78 +4,7 @@
     Log In
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" Runat="Server">
-    <style type="text/css">
-        .auto-style1 {
-            text-align: center;
-        }
-        .auto-style2 {
-            width: 100%;
-            height: 32px;
-        }
-        .auto-style3 {
-            width: 373px;
-            text-align: right;
-            height: 25px;
-        }
-        .auto-style5 {
-            width: 215px;
-            height: 25px;
-        }
-        .auto-style6 {
-            width: 373px;
-            text-align: right;
-            height: 18px;
-        }
-        .auto-style7 {
-            width: 215px;
-            height: 18px;
-            text-align: center;
-        }
-        .auto-style8 {
-            height: 18px;
-        }
-        .auto-style9 {
-            width: 373px;
-            text-align: right;
-            height: 45px;
-        }
-        .auto-style10 {
-            width: 215px;
-            height: 45px;
-        }
-        .auto-style11 {
-            height: 45px;
-        text-align: left;
-    }
-        .auto-style12 {
-            height: 25px;
-        }
-        .auto-style13 {
-            width: 373px;
-            text-align: right;
-            height: 36px;
-        }
-        .auto-style14 {
-            width: 215px;
-            height: 36px;
-        }
-        .auto-style15 {
-            height: 36px;
-        }
-        .auto-style17 {
-            width: 100%;
-        }
-        .auto-style18 {
-            height: 32px;
-        }
-        .auto-style20 {
-            height: 17px;
-            width: 470px;
-        }
-        .auto-style21 {
-            height: 17px;
-        }
-    </style>
+    <link href="Styles/logIn.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" Runat="Server">
     <p>
@@ -85,7 +14,7 @@
     <br />
     <br />
     <br />
-    <hr style="height: -13px; width: 800px" />
+    <hr />
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:Label ID="Msg" runat="server" Font-Size="Medium" ForeColor="#CC3300"></asp:Label>
@@ -153,7 +82,7 @@
     </table>
     <p>
     </p>
-    <hr style="height: -13px; width: 800px" />
+    <hr/>
     <p>
     </p>
     <table class="auto-style17">

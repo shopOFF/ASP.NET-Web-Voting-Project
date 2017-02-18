@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="Server">
+    <link href="Styles/general.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="Server">
     <p>
@@ -12,7 +13,7 @@
         <h2 style="font-size: x-large; text-align: center;">&nbsp; Contact Us</h2>
         <p style="font-size: x-large; text-align: center;">&nbsp;</p>
         <p>&nbsp;</p>
-        <hr style="height: -13px; width: 800px" />
+        <hr />
         <br />
         <asp:Label ID="Label2" runat="server" Font-Size="Medium" Text="Via"></asp:Label>
         <br />
@@ -30,7 +31,7 @@
         <br />
         <br />
         <br />
-        <hr style="width: 800px; height: -13px;" />
+        <hr />
         <br />
         <br />
         <br />
